@@ -1,0 +1,11 @@
+F:\Code\CleanTeeth\CleanTeeth.Domain\bin\Debug\net8.0\CleanTeeth.Domain.deps.json
+F:\Code\CleanTeeth\CleanTeeth.Domain\bin\Debug\net8.0\CleanTeeth.Domain.dll
+F:\Code\CleanTeeth\CleanTeeth.Domain\bin\Debug\net8.0\CleanTeeth.Domain.pdb
+F:\Code\CleanTeeth\CleanTeeth.Domain\obj\Debug\net8.0\CleanTeeth.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\Code\CleanTeeth\CleanTeeth.Domain\obj\Debug\net8.0\CleanTeeth.Domain.AssemblyInfoInputs.cache
+F:\Code\CleanTeeth\CleanTeeth.Domain\obj\Debug\net8.0\CleanTeeth.Domain.AssemblyInfo.cs
+F:\Code\CleanTeeth\CleanTeeth.Domain\obj\Debug\net8.0\CleanTeeth.Domain.csproj.CoreCompileInputs.cache
+F:\Code\CleanTeeth\CleanTeeth.Domain\obj\Debug\net8.0\CleanTeeth.Domain.dll
+F:\Code\CleanTeeth\CleanTeeth.Domain\obj\Debug\net8.0\refint\CleanTeeth.Domain.dll
+F:\Code\CleanTeeth\CleanTeeth.Domain\obj\Debug\net8.0\CleanTeeth.Domain.pdb
+F:\Code\CleanTeeth\CleanTeeth.Domain\obj\Debug\net8.0\ref\CleanTeeth.Domain.dll

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{BCB3FE69-732E-40A5-922D-ACC1B80AB5D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{72579DD6-C33B-49D9-87CA-4F3AFBBA5CE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D122DFE0-A3E8-4E60-8863-E03F7953AB7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanTeeth.Domain", "CleanTeeth.Domain\CleanTeeth.Domain.csproj", "{5BE3B125-619C-4A02-9CDF-0227FC404561}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BE3B125-619C-4A02-9CDF-0227FC404561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE3B125-619C-4A02-9CDF-0227FC404561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BE3B125-619C-4A02-9CDF-0227FC404561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE3B125-619C-4A02-9CDF-0227FC404561}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5BE3B125-619C-4A02-9CDF-0227FC404561} = {BCB3FE69-732E-40A5-922D-ACC1B80AB5D2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2359C99C-4DB4-4570-8E77-D8C4DBA93699}
+	EndGlobalSection
+EndGlobal
