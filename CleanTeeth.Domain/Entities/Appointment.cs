@@ -1,5 +1,6 @@
 ﻿using CleanTeeth.Domain.Enums;
 using CleanTeeth.Domain.Exceptions;
+using CleanTeeth.Domain.ValueObjects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,21 +16,15 @@ namespace CleanTeeth.Domain.Entities
         public Guid DentistId { get; private set; }
         public Guid DentalOfficeId { get; private set; }
         public AppointmentStatus Status { get; private set; }
-        public DateTime StartTime { get; private set; }
-        public DateTime EndTime { get; private set; }
+        public TimeInterval TimeInterval { get; private set; }
         public Patient? Patient { get; private set; }
         public Dentist? Dentist { get; private set; }
         public DentalOffice? DentalOffice { get; private set; }
 
-        public Appointment(Guid patientId, Guid dentistId, Guid dentalOfficeId, DateTime startTime, 
-            DateTime endTime)
+        public Appointment(Guid patientId, Guid dentistId, Guid dentalOfficeId, TimeInterval timeInterval)
         {
-            if (startTime > endTime)
-            {
-                throw new BusinessRuleException("The start time cannot be after the end time of the appointment.");
-            }
 
-            if (startTime < DateTime.Now)
+            if (timeInterval.Start < DateTime.Now)
             {
                                throw new BusinessRuleException("The start time cannot be in the past.");
             }
@@ -37,8 +32,7 @@ namespace CleanTeeth.Domain.Entities
             PatientId = patientId;
             DentistId = dentistId;
             DentalOfficeId = dentalOfficeId;
-            StartTime = startTime;
-            EndTime = endTime;
+            TimeInterval = timeInterval;
             Status = AppointmentStatus.Scheduled;
             Id = Guid.NewGuid();
         }
