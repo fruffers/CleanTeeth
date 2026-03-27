@@ -9,3 +9,4 @@ F:\Code\CleanTeeth\CleanTeeth.Domain\obj\Debug\net8.0\CleanTeeth.Domain.dll
 F:\Code\CleanTeeth\CleanTeeth.Domain\obj\Debug\net8.0\refint\CleanTeeth.Domain.dll
 F:\Code\CleanTeeth\CleanTeeth.Domain\obj\Debug\net8.0\CleanTeeth.Domain.pdb
 F:\Code\CleanTeeth\CleanTeeth.Domain\obj\Debug\net8.0\ref\CleanTeeth.Domain.dll
+F:\Code\CleanTeeth\CleanTeeth.Domain\obj\Debug\net8.0\CleanTeeth.Domain.sourcelink.json
